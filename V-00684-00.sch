@@ -86,39 +86,39 @@
 <packages>
 </packages>
 <symbols>
-<symbol name="FRAME_M1">
+<symbol name="A4L-LOC">
 <wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="3.81" x2="161.29" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="8.89" x2="161.29" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="13.97" x2="161.29" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="19.05" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="228.6" y1="3.81" x2="228.6" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="228.6" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="228.6" y1="8.89" x2="222.25" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="222.25" y1="8.89" x2="161.29" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="13.97" x2="222.25" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="222.25" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="222.25" y1="8.89" x2="222.25" y2="13.97" width="0.1016" layer="94"/>
-<text x="162.56" y="15.24" size="2.54" layer="94" font="vector" ratio="12">&gt;DRAWING_NAME</text>
-<text x="162.56" y="10.16" size="2.286" layer="94" font="vector" ratio="12">&gt;LAST_DATE_TIME</text>
-<text x="243.205" y="5.08" size="2.54" layer="94" font="vector" ratio="12">&gt;SHEET</text>
-<text x="229.616" y="4.953" size="2.54" layer="94" font="vector" ratio="12">Sheet:</text>
-<text x="162.56" y="5.08" size="2.286" layer="94" font="vector" ratio="12">Autor:</text>
-<text x="175.26" y="5.08" size="2.286" layer="94" font="vector" ratio="12">&gt;AUTHOR</text>
-<text x="223.52" y="10.16" size="2.286" layer="94" font="vector" ratio="12">Version:</text>
-<text x="241.3" y="10.16" size="2.286" layer="94" font="vector" ratio="12">&gt;VERSION</text>
+<wire x1="125.73" y1="3.81" x2="125.73" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="125.73" y1="24.13" x2="192.405" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="192.405" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="223.52" y1="3.81" x2="223.52" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="223.52" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="223.52" y1="8.89" x2="192.405" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="192.405" y1="8.89" x2="192.405" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="192.405" y1="8.89" x2="192.405" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="192.405" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="192.405" y1="13.97" x2="192.405" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="192.405" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="192.405" y1="19.05" x2="192.405" y2="24.13" width="0.1016" layer="94"/>
+<text x="194.31" y="15.24" size="2.54" layer="94" font="fixed">&gt;DRAWING_NAME</text>
+<text x="194.31" y="10.16" size="2.286" layer="94" font="fixed">&gt;LAST_DATE_TIME</text>
+<text x="207.645" y="5.08" size="2.54" layer="94" font="fixed">&gt;SHEET</text>
+<text x="194.056" y="4.953" size="2.54" layer="94" font="fixed">Sheet:</text>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+<text x="194.31" y="20.32" size="2.54" layer="94" font="fixed">Author: Lukas Novak</text>
+<text x="224.79" y="5.08" size="2.54" layer="94" font="fixed">Version:</text>
+<text x="127" y="20.32" size="2.54" layer="94" font="fixed">Description:</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME_M1">
+<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with location and doc. field</description>
 <gates>
-<gate name="G$1" symbol="FRAME_M1" x="0" y="0"/>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -5298,7 +5298,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="frames" deviceset="FRAME_M1" device=""/>
 <part name="J1" library="19inch" deviceset="VG32S" device="P"/>
 <part name="LED1" library="led" deviceset="L-3P90" device="" technology="-GREEN"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="4k7"/>
@@ -5306,12 +5305,13 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="led" deviceset="L-3P90" device="" technology="-GREEN"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="J5" library="con-molex" deviceset="22-?-04" device="05-7048" value="22-05-7048-04"/>
-<part name="J8" library="con-molex" deviceset="22-?-04" device="05-7048" value="22-05-7048-04"/>
-<part name="J9" library="con-molex" deviceset="22-?-04" device="05-7048" value="22-05-7048-04"/>
-<part name="J11" library="con-molex" deviceset="22-?-02" device="05-7028"/>
-<part name="J12" library="con-molex" deviceset="22-?-02" device="05-7028"/>
-<part name="J13" library="con-molex" deviceset="22-?-02" device="05-7028"/>
+<part name="J5" library="con-molex" deviceset="22-?-04" device="05-7048" value="MOTOR4"/>
+<part name="J8" library="con-molex" deviceset="22-?-04" device="05-7048" value="MOTOR5"/>
+<part name="J9" library="con-molex" deviceset="22-?-04" device="05-7048" value="MOTOR6"/>
+<part name="J11" library="con-molex" deviceset="22-?-02" device="05-7028" value="MOTOR4_Ref"/>
+<part name="J12" library="con-molex" deviceset="22-?-02" device="05-7028" value="MOTOR5_Ref"/>
+<part name="J13" library="con-molex" deviceset="22-?-02" device="05-7028" value="MOTOR6_Ref"/>
+<part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5319,7 +5319,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <text x="114.3" y="93.98" size="2.54" layer="97" font="vector" ratio="15">TMCM-6110</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="0" y="0"/>
 <instance part="J1" gate="-A2" x="233.68" y="124.46"/>
 <instance part="J1" gate="-A4" x="233.68" y="119.38"/>
 <instance part="J1" gate="-A6" x="233.68" y="114.3"/>
@@ -5358,24 +5357,25 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <instance part="GND6" gate="1" x="121.92" y="124.46"/>
 <instance part="LED2" gate="A" x="104.14" y="139.7"/>
 <instance part="R4" gate="G$1" x="104.14" y="149.86" rot="R90"/>
-<instance part="J5" gate="-1" x="78.74" y="53.34" rot="R180"/>
-<instance part="J5" gate="-2" x="78.74" y="55.88" rot="R180"/>
-<instance part="J5" gate="-3" x="78.74" y="58.42" rot="R180"/>
-<instance part="J5" gate="-4" x="78.74" y="60.96" rot="R180"/>
-<instance part="J8" gate="-1" x="78.74" y="38.1" rot="R180"/>
-<instance part="J8" gate="-2" x="78.74" y="40.64" rot="R180"/>
-<instance part="J8" gate="-3" x="78.74" y="43.18" rot="R180"/>
-<instance part="J8" gate="-4" x="78.74" y="45.72" rot="R180"/>
-<instance part="J9" gate="-1" x="116.84" y="53.34" rot="R180"/>
-<instance part="J9" gate="-2" x="116.84" y="55.88" rot="R180"/>
-<instance part="J9" gate="-3" x="116.84" y="58.42" rot="R180"/>
-<instance part="J9" gate="-4" x="116.84" y="60.96" rot="R180"/>
-<instance part="J11" gate="-1" x="78.74" y="83.82" rot="R180"/>
-<instance part="J11" gate="-2" x="78.74" y="86.36" rot="R180"/>
-<instance part="J12" gate="-1" x="116.84" y="83.82" rot="R180"/>
-<instance part="J12" gate="-2" x="116.84" y="86.36" rot="R180"/>
-<instance part="J13" gate="-1" x="78.74" y="76.2" rot="R180"/>
-<instance part="J13" gate="-2" x="78.74" y="78.74" rot="R180"/>
+<instance part="J5" gate="-1" x="172.72" y="101.6" rot="R180"/>
+<instance part="J5" gate="-2" x="172.72" y="104.14" rot="R180"/>
+<instance part="J5" gate="-3" x="172.72" y="106.68" rot="R180"/>
+<instance part="J5" gate="-4" x="172.72" y="109.22" rot="R180"/>
+<instance part="J8" gate="-1" x="172.72" y="88.9" rot="R180"/>
+<instance part="J8" gate="-2" x="172.72" y="91.44" rot="R180"/>
+<instance part="J8" gate="-3" x="172.72" y="93.98" rot="R180"/>
+<instance part="J8" gate="-4" x="172.72" y="96.52" rot="R180"/>
+<instance part="J9" gate="-1" x="172.72" y="76.2" rot="R180"/>
+<instance part="J9" gate="-2" x="172.72" y="78.74" rot="R180"/>
+<instance part="J9" gate="-3" x="172.72" y="81.28" rot="R180"/>
+<instance part="J9" gate="-4" x="172.72" y="83.82" rot="R180"/>
+<instance part="J11" gate="-1" x="172.72" y="68.58" rot="R180"/>
+<instance part="J11" gate="-2" x="172.72" y="71.12" rot="R180"/>
+<instance part="J12" gate="-1" x="172.72" y="60.96" rot="R180"/>
+<instance part="J12" gate="-2" x="172.72" y="63.5" rot="R180"/>
+<instance part="J13" gate="-1" x="172.72" y="53.34" rot="R180"/>
+<instance part="J13" gate="-2" x="172.72" y="55.88" rot="R180"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -5392,13 +5392,8 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pinref part="J1" gate="-A32" pin="MS"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="68.58" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
-<label x="223.52" y="68.58" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-A24" pin="MS"/>
-</segment>
-<segment>
-<wire x1="231.14" y1="55.88" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
-<label x="226.06" y="55.88" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<wire x1="231.14" y1="55.88" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
+<label x="223.52" y="55.88" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-C28" pin="MS"/>
 </segment>
 <segment>
@@ -5410,6 +5405,31 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pinref part="LED2" gate="A" pin="C"/>
 <wire x1="104.14" y1="134.62" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="129.54" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J11" gate="-1" pin="S"/>
+<wire x1="175.26" y1="68.58" x2="182.88" y2="68.58" width="0.1524" layer="91"/>
+<label x="182.88" y="68.58" size="1.016" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J12" gate="-1" pin="S"/>
+<wire x1="175.26" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
+<label x="182.88" y="60.96" size="1.016" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J13" gate="-1" pin="S"/>
+<wire x1="175.26" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
+<label x="182.88" y="53.34" size="1.016" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="231.14" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="223.52" y="66.04" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-C24" pin="MS"/>
+</segment>
+<segment>
+<wire x1="231.14" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
+<label x="223.52" y="60.96" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-C26" pin="MS"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -5471,12 +5491,10 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <label x="228.6" y="109.22" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-A8" pin="MS"/>
 </segment>
-</net>
-<net name="M1A2" class="0">
 <segment>
-<wire x1="231.14" y1="106.68" x2="228.6" y2="106.68" width="0.1524" layer="91"/>
-<label x="228.6" y="106.68" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-C8" pin="MS"/>
+<pinref part="J5" gate="-4" pin="S"/>
+<wire x1="175.26" y1="109.22" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
+<label x="182.88" y="109.22" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="M1B1" class="0">
@@ -5485,12 +5503,10 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <label x="228.6" y="104.14" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-A10" pin="MS"/>
 </segment>
-</net>
-<net name="M1B2" class="0">
 <segment>
-<wire x1="231.14" y1="101.6" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
-<label x="228.6" y="101.6" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-C10" pin="MS"/>
+<pinref part="J5" gate="-2" pin="S"/>
+<wire x1="175.26" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
+<label x="182.88" y="104.14" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="M2A1" class="0">
@@ -5499,12 +5515,10 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <label x="228.6" y="99.06" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-A12" pin="MS"/>
 </segment>
-</net>
-<net name="M2A2" class="0">
 <segment>
-<wire x1="231.14" y1="96.52" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
-<label x="228.6" y="96.52" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-C12" pin="MS"/>
+<wire x1="175.26" y1="96.52" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="J8" gate="-4" pin="S"/>
+<label x="182.88" y="96.52" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="M2B1" class="0">
@@ -5513,12 +5527,22 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <label x="228.6" y="93.98" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-A14" pin="MS"/>
 </segment>
+<segment>
+<pinref part="J8" gate="-2" pin="S"/>
+<wire x1="175.26" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+<label x="182.88" y="91.44" size="1.016" layer="95" font="vector" xref="yes"/>
+</segment>
 </net>
-<net name="M2B2" class="0">
+<net name="!M2B1" class="0">
 <segment>
 <wire x1="231.14" y1="91.44" x2="228.6" y2="91.44" width="0.1524" layer="91"/>
 <label x="228.6" y="91.44" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-C14" pin="MS"/>
+</segment>
+<segment>
+<pinref part="J8" gate="-1" pin="S"/>
+<wire x1="175.26" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
+<label x="182.88" y="88.9" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="M3A1" class="0">
@@ -5527,12 +5551,10 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <label x="228.6" y="88.9" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-A16" pin="MS"/>
 </segment>
-</net>
-<net name="M3A2" class="0">
 <segment>
-<wire x1="231.14" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
-<label x="228.6" y="86.36" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-C16" pin="MS"/>
+<pinref part="J9" gate="-4" pin="S"/>
+<wire x1="175.26" y1="83.82" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
+<label x="182.88" y="83.82" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="M3B1" class="0">
@@ -5541,68 +5563,17 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <label x="228.6" y="83.82" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-A18" pin="MS"/>
 </segment>
-</net>
-<net name="M3B2" class="0">
 <segment>
-<wire x1="231.14" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
-<label x="228.6" y="81.28" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-C18" pin="MS"/>
+<pinref part="J9" gate="-2" pin="S"/>
+<wire x1="175.26" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
+<label x="182.88" y="78.74" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="M4A1" class="0">
-<segment>
-<wire x1="231.14" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
-<label x="228.6" y="78.74" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-A20" pin="MS"/>
-</segment>
-</net>
-<net name="M4A2" class="0">
-<segment>
-<wire x1="231.14" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
-<label x="228.6" y="76.2" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-C20" pin="MS"/>
-</segment>
-</net>
-<net name="M4B1" class="0">
-<segment>
-<wire x1="231.14" y1="73.66" x2="228.6" y2="73.66" width="0.1524" layer="91"/>
-<label x="228.6" y="73.66" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-A22" pin="MS"/>
-</segment>
-</net>
-<net name="M4B2" class="0">
+<net name="N.C.3" class="0">
 <segment>
 <wire x1="231.14" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <label x="228.6" y="71.12" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-C22" pin="MS"/>
-</segment>
-</net>
-<net name="M1_REF_L" class="0">
-<segment>
-<wire x1="231.14" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
-<label x="223.52" y="66.04" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-C24" pin="MS"/>
-</segment>
-</net>
-<net name="M2_REF_L" class="0">
-<segment>
-<wire x1="231.14" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
-<label x="223.52" y="63.5" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-A26" pin="MS"/>
-</segment>
-</net>
-<net name="M3_REF_L" class="0">
-<segment>
-<wire x1="231.14" y1="60.96" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
-<label x="226.06" y="60.96" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-C26" pin="MS"/>
-</segment>
-</net>
-<net name="M4_REF_L" class="0">
-<segment>
-<wire x1="231.14" y1="58.42" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
-<label x="226.06" y="58.42" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="-A28" pin="MS"/>
 </segment>
 </net>
 <net name="+5V_2" class="0">
@@ -5633,132 +5604,133 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="104.14" y1="144.78" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="M1_REF" class="0">
 <segment>
 <pinref part="J11" gate="-2" pin="S"/>
-<wire x1="81.28" y1="86.36" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
-<label x="88.9" y="86.36" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="175.26" y1="71.12" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
+<label x="182.88" y="71.12" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
-</net>
-<net name="N$4" class="0">
 <segment>
-<pinref part="J11" gate="-1" pin="S"/>
-<wire x1="81.28" y1="83.82" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
-<label x="88.9" y="83.82" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="231.14" y1="68.58" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
+<label x="223.52" y="68.58" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-A24" pin="MS"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="M3_REF" class="0">
 <segment>
 <pinref part="J13" gate="-2" pin="S"/>
-<wire x1="81.28" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<label x="88.9" y="78.74" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="175.26" y1="55.88" x2="182.88" y2="55.88" width="0.1524" layer="91"/>
+<label x="182.88" y="55.88" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
-</net>
-<net name="N$7" class="0">
 <segment>
-<pinref part="J13" gate="-1" pin="S"/>
-<wire x1="81.28" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<label x="88.9" y="76.2" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="231.14" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
+<label x="223.52" y="58.42" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-A28" pin="MS"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="M2_REF" class="0">
 <segment>
 <pinref part="J12" gate="-2" pin="S"/>
-<wire x1="119.38" y1="86.36" x2="127" y2="86.36" width="0.1524" layer="91"/>
-<label x="127" y="86.36" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="175.26" y1="63.5" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="182.88" y="63.5" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
-</net>
-<net name="N$9" class="0">
 <segment>
-<pinref part="J12" gate="-1" pin="S"/>
-<wire x1="119.38" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
-<label x="127" y="83.82" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="231.14" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
+<label x="223.52" y="63.5" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-A26" pin="MS"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="J5" gate="-4" pin="S"/>
-<wire x1="81.28" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
-<label x="88.9" y="60.96" size="1.016" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="J5" gate="-3" pin="S"/>
-<wire x1="81.28" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<label x="88.9" y="58.42" size="1.016" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="J5" gate="-2" pin="S"/>
-<wire x1="81.28" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
-<label x="88.9" y="55.88" size="1.016" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="N$13" class="0">
+<net name="!M1B1" class="0">
 <segment>
 <pinref part="J5" gate="-1" pin="S"/>
-<wire x1="81.28" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<label x="88.9" y="53.34" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="175.26" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<label x="182.88" y="101.6" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
-</net>
-<net name="N$14" class="0">
 <segment>
-<wire x1="81.28" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="J8" gate="-4" pin="S"/>
-<label x="88.9" y="45.72" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="231.14" y1="101.6" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
+<label x="228.6" y="101.6" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-C10" pin="MS"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="!M2A1" class="0">
 <segment>
 <pinref part="J8" gate="-3" pin="S"/>
-<wire x1="81.28" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
-<label x="88.9" y="43.18" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="175.26" y1="93.98" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
+<label x="182.88" y="93.98" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
-</net>
-<net name="N$16" class="0">
 <segment>
-<pinref part="J8" gate="-2" pin="S"/>
-<wire x1="81.28" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
-<label x="88.9" y="40.64" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="231.14" y1="96.52" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
+<label x="228.6" y="96.52" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-C12" pin="MS"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="J8" gate="-1" pin="S"/>
-<wire x1="81.28" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
-<label x="88.9" y="38.1" size="1.016" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="J9" gate="-4" pin="S"/>
-<wire x1="119.38" y1="60.96" x2="127" y2="60.96" width="0.1524" layer="91"/>
-<label x="127" y="60.96" size="1.016" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="N$19" class="0">
+<net name="!M3A1" class="0">
 <segment>
 <pinref part="J9" gate="-3" pin="S"/>
-<wire x1="119.38" y1="58.42" x2="127" y2="58.42" width="0.1524" layer="91"/>
-<label x="127" y="58.42" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="175.26" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
+<label x="182.88" y="81.28" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
-</net>
-<net name="N$20" class="0">
 <segment>
-<pinref part="J9" gate="-2" pin="S"/>
-<wire x1="119.38" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
-<label x="127" y="55.88" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="231.14" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
+<label x="228.6" y="86.36" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-C16" pin="MS"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="!M3B1" class="0">
 <segment>
 <pinref part="J9" gate="-1" pin="S"/>
-<wire x1="119.38" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
-<label x="127" y="53.34" size="1.016" layer="95" font="vector" xref="yes"/>
+<wire x1="175.26" y1="76.2" x2="182.88" y2="76.2" width="0.1524" layer="91"/>
+<label x="182.88" y="76.2" size="1.016" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="231.14" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
+<label x="228.6" y="81.28" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-C18" pin="MS"/>
 </segment>
 </net>
+<net name="!M1A1" class="0">
+<segment>
+<pinref part="J5" gate="-3" pin="S"/>
+<wire x1="175.26" y1="106.68" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
+<label x="182.88" y="106.68" size="1.016" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="231.14" y1="106.68" x2="228.6" y2="106.68" width="0.1524" layer="91"/>
+<label x="228.6" y="106.68" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-C8" pin="MS"/>
+</segment>
+</net>
+<net name="N.C.0" class="0">
+<segment>
+<wire x1="231.14" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
+<label x="228.6" y="78.74" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-A20" pin="MS"/>
+</segment>
+</net>
+<net name="N.C.1" class="0">
+<segment>
+<wire x1="231.14" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
+<label x="228.6" y="76.2" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-C20" pin="MS"/>
+</segment>
+</net>
+<net name="N.C.2" class="0">
+<segment>
+<wire x1="231.14" y1="73.66" x2="228.6" y2="73.66" width="0.1524" layer="91"/>
+<label x="228.6" y="73.66" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="-A22" pin="MS"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>

@@ -86,39 +86,39 @@
 <packages>
 </packages>
 <symbols>
-<symbol name="A4L-LOC">
+<symbol name="FRAME_M1">
 <wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="125.73" y1="3.81" x2="125.73" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="125.73" y1="24.13" x2="192.405" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="192.405" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="223.52" y1="3.81" x2="223.52" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="223.52" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="223.52" y1="8.89" x2="192.405" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="192.405" y1="8.89" x2="192.405" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="192.405" y1="8.89" x2="192.405" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="192.405" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="192.405" y1="13.97" x2="192.405" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="192.405" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="192.405" y1="19.05" x2="192.405" y2="24.13" width="0.1016" layer="94"/>
-<text x="194.31" y="15.24" size="2.54" layer="94" font="fixed">&gt;DRAWING_NAME</text>
-<text x="194.31" y="10.16" size="2.286" layer="94" font="fixed">&gt;LAST_DATE_TIME</text>
-<text x="207.645" y="5.08" size="2.54" layer="94" font="fixed">&gt;SHEET</text>
-<text x="194.056" y="4.953" size="2.54" layer="94" font="fixed">Sheet:</text>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="8.89" x2="161.29" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="13.97" x2="161.29" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="19.05" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="228.6" y1="3.81" x2="228.6" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="228.6" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="228.6" y1="8.89" x2="222.25" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="222.25" y1="8.89" x2="161.29" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="13.97" x2="222.25" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="222.25" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="222.25" y1="8.89" x2="222.25" y2="13.97" width="0.1016" layer="94"/>
+<text x="162.56" y="15.24" size="2.54" layer="94" font="vector" ratio="12">&gt;DRAWING_NAME</text>
+<text x="162.56" y="10.16" size="2.286" layer="94" font="vector" ratio="12">&gt;LAST_DATE_TIME</text>
+<text x="243.205" y="5.08" size="2.54" layer="94" font="vector" ratio="12">&gt;SHEET</text>
+<text x="229.616" y="4.953" size="2.54" layer="94" font="vector" ratio="12">Sheet:</text>
+<text x="162.56" y="5.08" size="2.286" layer="94" font="vector" ratio="12">Autor:</text>
+<text x="175.26" y="5.08" size="2.286" layer="94" font="vector" ratio="12">&gt;AUTHOR</text>
+<text x="223.52" y="10.16" size="2.286" layer="94" font="vector" ratio="12">Version:</text>
+<text x="241.3" y="10.16" size="2.286" layer="94" font="vector" ratio="12">&gt;VERSION</text>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-<text x="194.31" y="20.32" size="2.54" layer="94" font="fixed">Author: Lukas Novak</text>
-<text x="224.79" y="5.08" size="2.54" layer="94" font="fixed">Version:</text>
-<text x="127" y="20.32" size="2.54" layer="94" font="fixed">Description:</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A4, landscape with location and doc. field</description>
+<deviceset name="FRAME_M1">
 <gates>
-<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+<gate name="G$1" symbol="FRAME_M1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -5298,6 +5298,7 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 </class>
 </classes>
 <parts>
+<part name="U$1" library="frames" deviceset="FRAME_M1" device=""/>
 <part name="J1" library="19inch" deviceset="VG32S" device="P"/>
 <part name="LED1" library="led" deviceset="L-3P90" device="" technology="-GREEN"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="4k7"/>
@@ -5311,7 +5312,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <part name="J11" library="con-molex" deviceset="22-?-02" device="05-7028"/>
 <part name="J12" library="con-molex" deviceset="22-?-02" device="05-7028"/>
 <part name="J13" library="con-molex" deviceset="22-?-02" device="05-7028"/>
-<part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5319,6 +5319,7 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <text x="114.3" y="93.98" size="2.54" layer="97" font="vector" ratio="15">TMCM-6110</text>
 </plain>
 <instances>
+<instance part="U$1" gate="G$1" x="0" y="0"/>
 <instance part="J1" gate="-A2" x="233.68" y="124.46"/>
 <instance part="J1" gate="-A4" x="233.68" y="119.38"/>
 <instance part="J1" gate="-A6" x="233.68" y="114.3"/>
@@ -5375,7 +5376,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <instance part="J12" gate="-2" x="172.72" y="63.5" rot="R180"/>
 <instance part="J13" gate="-1" x="172.72" y="53.34" rot="R180"/>
 <instance part="J13" gate="-2" x="172.72" y="55.88" rot="R180"/>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
 </instances>
 <busses>
 </busses>
